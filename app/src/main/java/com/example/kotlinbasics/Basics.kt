@@ -12,7 +12,11 @@ fun main()
     stringFnc()
     conditional()
     whenExp()
+    looping()
+    arrayfun()
+    ranges()
 }
+
 fun variables()
 {
     // Variables
@@ -65,4 +69,49 @@ fun whenExp(){
         else -> "no above case matched the input"
     }
     println(result)
+}
+
+fun looping(){
+    var i =0
+    while(i<5){   //while loop
+        if(i==2) {
+            println("loop will break because of break statement")
+            break
+        }
+        print("this loop will run as i = ")
+        println(i)
+        i++
+    }
+    println("out of loop as i = $i")
+    i=5
+    do {
+        // will always run at least once
+        if(i==2) {
+            println("loop will skip $i because of continue statement")
+            i--
+            continue
+        }
+        print("in a loop as i != ")
+        println(i)
+        i--
+    }while (i!=0)
+}
+
+fun arrayfun() {
+    val num = arrayOf(1,2,6,4)//initialize an array
+    println(num[1])
+    println(num.size) // gives the no. of elements in array
+    if(1 in num){  //in operator is used to check if an element is present or not
+        println("present")
+    }
+    for(i in num){  //print all elements in an array
+        print(i)
+    }
+}
+
+fun ranges() {
+    // range is denoted by ".."
+    for(x in 1..20){  //both 1 & 20 are included
+        println(x)
+    }
 }
