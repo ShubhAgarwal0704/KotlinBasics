@@ -15,6 +15,20 @@ fun main()
     looping()
     arrayfun()
     ranges()
+
+    // object creation
+    var obj = OopConcept3() //obj is an object of class OopConcept
+
+    // accessing properties
+    println(obj.name) //accessing property name
+    obj.name = "Aman" //changing value of property name
+    println(obj.name)
+
+    println(obj.year) //accessing property year
+
+    // accessing functions
+    obj.greet() //accessing function greet()
+    obj.year() //accessing function year()
 }
 
 fun variables()
