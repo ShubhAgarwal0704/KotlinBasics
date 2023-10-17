@@ -29,6 +29,13 @@ fun main()
     // accessing functions
     obj.greet() //accessing function greet()
     obj.year() //accessing function year()
+
+    // object creation with constructor
+    var obj2 = Constructors4("Shubh", 2023) //obj2 is an object of class Constructors4
+    var obj3 = Constructors4("Aman", 2022) //obj3 is an object of class Constructors4
+
+    println(obj2.name) //accessing property name
+    println(obj3.name) //accessing property year
 }
 
 fun variables()
