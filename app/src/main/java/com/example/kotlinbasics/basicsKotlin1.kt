@@ -36,6 +36,7 @@ fun main()
 
     println(obj2.name) //accessing property name
     println(obj3.name) //accessing property year
+
 }
 
 fun variables()
