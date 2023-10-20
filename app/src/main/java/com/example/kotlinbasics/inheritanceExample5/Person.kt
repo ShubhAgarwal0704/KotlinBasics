@@ -8,7 +8,9 @@ open class Person(var name: String, var age: Int) {
     //use of init block is
     //The code inside the init block is the first to be executed when the class is instantiated.
     //The init block is used to initialize the properties of the class.
-    init {  // here init block is used to print the name and age of the person
+    init {
+        // here init block is used to print the name and age of the person
+        // this block is executed as soon as the object of the class is created
         println("Person name is $name")
         println("Person age is $age")
     }

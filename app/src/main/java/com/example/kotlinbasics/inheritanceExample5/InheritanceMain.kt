@@ -34,22 +34,3 @@ fun main(){
     person1.sleep()  //John is sleeping. He is 30 years old.
     person1.talk()  //John is talking. He is 30 years old.
 }
-
-// Output:
-//Person name is Aman
-//Person age is 20
-//Aman is eating. He is 20 years old.
-//Aman is sleeping. He is 20 years old.
-//Aman is talking. He is 20 years old.
-//Aman is playing Cricket.
-//Person name is Sam
-//Person age is 25
-//Sam is eating. He is 25 years old.
-//Sam is sleeping. He is 25 years old.
-//Sam is talking. He is 25 years old.
-//Sam is teaching Maths.
-//Person name is John
-//Person age is 30
-//John is eating. He is 30 years old.
-//John is sleeping. He is 30 years old.
-//John is talking. He is 30 years old.
