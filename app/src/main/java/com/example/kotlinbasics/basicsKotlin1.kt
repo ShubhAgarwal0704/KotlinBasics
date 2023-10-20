@@ -91,6 +91,16 @@ fun whenExp(){
         else -> "no above case matched the input"
     }
     println(result)
+
+    //getter() is a function which returns a value
+    //setter() is a function which sets a value
+    //getter() and setter() are used to access private properties of a class
+
+    // Visibility Modifiers
+    // public: default visibility modifier
+    // private: visible inside the class only
+    // protected: visible inside the class and its subclasses
+    // internal: visible inside the module
 }
 
 fun looping(){
