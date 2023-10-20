@@ -101,6 +101,15 @@ fun whenExp(){
     // private: visible inside the class only
     // protected: visible inside the class and its subclasses
     // internal: visible inside the module
+
+
+    // nested class
+    val obj = NestedClass9()  //outer class object
+    println(obj.name)  //accessing outer class property
+
+    val obj2 = NestedClass9.SubClass()  //nested class object
+    println(obj2.len)  //accessing nested class property
+    obj2.nestedMethod()   //accessing nested class method
 }
 
 fun looping(){
